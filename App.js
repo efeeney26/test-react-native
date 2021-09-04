@@ -7,12 +7,11 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import {Text, View} from 'react-native';
 
 import styles from './App.style';
 
-const App: () => Node = () => {
+const App = () => {
   return (
     <View style={styles.container}>
       <Text>Hello world! 🎉</Text>
